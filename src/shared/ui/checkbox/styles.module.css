@@ -1,0 +1,23 @@
+.wrapper {
+  display: inline-flex;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.checkbox input[type='checkbox'] {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: var(--white);
+  border: 1px solid var(--border);
+}
+
+.label {
+  font-size: 14px;
+  color: var(--gray-3);
+}
+
+.label a {
+  text-decoration: unset;
+  color: var(--purple);
+}

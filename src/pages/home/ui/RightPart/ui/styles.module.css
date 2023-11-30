@@ -1,0 +1,86 @@
+.right {
+  position: relative;
+  padding: 30px;
+
+  @media (max-width: 768px) {
+    padding: 15px;
+  }
+
+  .google {
+    width: 100%;
+    max-width: 250px;
+    padding: 1px 2px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 36px 1fr;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    border-radius: 3px;
+    background-color: var(--blue);
+  }
+
+  .twitter {
+    padding: 0;
+    max-height: 47px;
+  }
+}
+
+.formWrapper {
+  padding-top: 126px;
+  max-width: 416px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.already {
+  text-align: right;
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.already a {
+  text-decoration: unset;
+}
+
+.or {
+  position: relative;
+  width: 100%;
+  margin: 34px 0 46px;
+  color: var(--gray-2);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+}
+
+.or::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  background-color: var(--gray-0);
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+
+.or span {
+  position: relative;
+  padding: 0 10px;
+  background-color: var(--white);
+  z-index: 1;
+}
+
+.alternative {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.already a {
+  color: var(--purple);
+}

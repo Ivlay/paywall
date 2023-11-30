@@ -1,0 +1,45 @@
+.reset {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  background-color: var(--white);
+}
+
+.field {
+  position: relative;
+}
+
+.label {
+  margin-bottom: 4px;
+  display: block;
+  color: var(--black);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.input {
+  padding: 12px 0px 12px 17px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: var(--milk);
+  color: var(--black);
+  font-size: 14px;
+}
+
+.input::placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-1);
+  line-height: 1;
+}
+
+.error {
+  outline: 1px solid var(--error);
+}
+
+.errorText {
+  color: var(--error);
+}

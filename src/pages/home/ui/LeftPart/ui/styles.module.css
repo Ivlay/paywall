@@ -1,0 +1,36 @@
+.left {
+  background-color: var(--mango);
+
+  @media (max-width: 860px) {
+    display: none;
+  }
+}
+
+.topContent {
+  margin-bottom: 51px;
+  padding: 64px 0 30px 64px;
+}
+
+.logo {
+  margin-bottom: 31px;
+  display: block;
+}
+
+.title {
+  max-width: 312px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  color: var(--mango-dark);
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}

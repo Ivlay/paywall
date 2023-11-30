@@ -1,0 +1,24 @@
+.reset {
+  border: none;
+  font-family: inherit;
+  padding: 0;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 9px 12px;
+  line-height: 150%;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.filled {
+  background-color: var(--pink);
+  color: var(--white);
+}
+
+.outline {
+  border: 1px solid;
+}

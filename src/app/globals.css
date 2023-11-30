@@ -1,0 +1,41 @@
+:root {
+  --pink: #ea4c89;
+  --white: #ffffff;
+  --black: #0d0c22;
+  --milk: #f3f3f4;
+  --error: #f00;
+  --mango: #f2d184;
+  --mango-dark: #866118;
+  --purple: #4f3cc9;
+  --border: #dbdbde;
+  --gray-0: #e0e0e0;
+  --gray-1: #9e9ea7;
+  --gray-2: #6e6d7a;
+  --gray-3: #6e6d7a;
+  --blue: #1a73e8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body,
+html {
+  min-height: 100vh;
+  height: 100%;
+}
+
+main {
+  height: 100%;
+}
